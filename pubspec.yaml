@@ -1,10 +1,10 @@
 name: hyper_pro
 description: نظام إدارة سوبرماركت احترافي - Clean Architecture
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.0 <4.0.0'
+  sdk: ">=3.2.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -12,44 +12,42 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  # State Management - Riverpod (أقوى من Provider وأحدث)
+  # State Management - Riverpod
   flutter_riverpod: ^2.5.1
   riverpod_annotation: ^2.3.5
 
-  # Functional Programming - للـ Result/Either pattern
+  # Functional Programming
   fpdart: ^1.1.0
 
-  # Routing - go_router أفضل من auto_route
+  # Routing
   go_router: ^14.2.7
 
-  # Network - Dio أفضل من http
+  # Network
   dio: ^5.4.3+1
   pretty_dio_logger: ^1.3.1
   connectivity_plus: ^6.0.5
 
-  # Local Storage - Drift أفضل من Isar للموبايل
+  # Local Storage - Drift
   drift: ^2.18.0
   sqlite3_flutter_libs: ^0.5.24
   path_provider: ^2.1.3
   path: ^1.9.0
-
-  # Simple Storage
   shared_preferences: ^2.2.3
 
-  # Serialization - freezed أقوى من json_annotation لوحدها
+  # Serialization
   freezed_annotation: ^2.4.4
   json_annotation: ^4.9.0
 
-  # Localization - easy_localization أسهل من intl
+  # Localization
   easy_localization: ^3.0.7
 
-  # UI - Material 3
+  # UI/UX
   flutter_screenutil: ^5.9.3
   cached_network_image: ^3.3.1
   shimmer: ^3.0.0
   flutter_svg: ^2.0.10+1
 
-  # QR Scanner - mobile_scanner أسرع من qr_code_scanner
+  # QR Scanner
   mobile_scanner: ^5.1.1
 
   # Image Picker
@@ -58,14 +56,14 @@ dependencies:
   # Permissions
   permission_handler: ^11.3.1
 
-  # Forms - flutter_form_builder أقوى من formz
+  # Forms
   flutter_form_builder: ^9.3.0
   form_builder_validators: ^10.0.1
 
   # Icons
   cupertino_icons: ^1.0.8
-  
-  # Logging - logger أفضل من print
+
+  # Logging
   logger: ^2.3.0
 
   # Utils
@@ -76,7 +74,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # Linting - very_good_analysis أقوى من flutter_lints
+  # Linting
   very_good_analysis: ^6.0.0
 
   # Code Generation
@@ -93,15 +91,13 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.4.1
 
-# App Icon Configuration
 flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
   adaptive_icon_background: "#6C5CE7"
-  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  adaptive_icon_foreground: "assets/icon/app_icon_app_foreground.png"
 
-# Splash Screen Configuration
 flutter_native_splash:
   color: "#0F0F1E"
   image: assets/splash/splash_logo.png
